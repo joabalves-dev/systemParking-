@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" />
+    <title>Sistema estacionamento</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="">
+                <h1>Estacionamento</h1>
+            </a>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div class="title">
+            <h2>Sistema Estacionamento</h2>
+        </div>
+        <div class="addVeiculo">
+            <div class="box-input">
+                <input type="text" name="modelo" id="modelo" placeholder=" ">
+                <label for="modelo">Modelo</label>
+            </div>
+            <div class="box-input">
+                <input type="text" name="placa" id="placa" placeholder=" ">
+                <label for="placa">Placa</label>
+            </div>
+            <div class="box-btn">
+                <input type="button" value="Gerar" onclick="addCar()">
+            </div>
+        </div>
+
+        <table id="tablecar">
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Placa</th>
+                    <th>Entrada</th>
+                    <th>Saida</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+ 
+            </tbody>
+        </table>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
